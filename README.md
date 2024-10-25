@@ -24,8 +24,11 @@ M^2 = (E1 + E2)^2 - ||P1 + P2||^2 = (m1)^2 + (m2)^2 + 2(E1 * E2 - P1 * P2)
 see: http://en.wikipedia.org/wiki/Invariant_mass
 
 So, I wrote a Python program that reads in the attached file "muons.txt", and for each event:
+
 i) calculates the 4-vector for each muon
+
 ii) calculates the invariant mass of the hypothetical particle
+
 iii) writes that mass to another file, "invariant_masses.txt"
 
 I used the ROOT data analysis framework to process the data for the muon collisions, and included a function that saved the calculated invariant masses in a histogram (PDF format).
