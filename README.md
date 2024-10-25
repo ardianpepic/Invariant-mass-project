@@ -31,4 +31,4 @@ ii) calculates the invariant mass of the hypothetical particle
 
 iii) writes that mass to another file, "invariant_masses.txt"
 
-I used the ROOT data analysis framework to process the data for the muon collisions, and included a function that saved the calculated invariant masses in a histogram (PDF format).
+I used the ROOT data analysis framework to process the data for the muon collisions, and included a function that saved the calculated invariant masses in a histogram file, entitled "invariant_masses_histogram.pdf."
